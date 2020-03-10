@@ -1,0 +1,30 @@
+{
+  "name": "stencil-ssr-now",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Stencil App Starter",
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "prerender": "stencil build --prerender",
+    "now": "now dev",
+    "serve": "stencil build && node server.js",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "generate": "stencil generate"
+  },
+  "devDependencies": {
+    "@stencil/core": "^1.9.1",
+    "@stencil/router": "^1.0.1",
+    "@types/node": "^13.9.0",
+    "rollup-plugin-node-polyfills": "^0.2.1",
+    "workbox-build": "5.0.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cross-fetch": "^3.0.4",
+    "isomorphic-fetch": "^2.2.1",
+    "node-fetch": "^2.6.0",
+    "stencil-head": "^1.0.6"
+  }
+}
