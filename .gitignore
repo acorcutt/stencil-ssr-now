@@ -27,3 +27,7 @@ UserInterfaceState.xcuserstate
 .env
 
 .now
+hydrate/
+hydrate/index.d.ts
+hydrate/index.js
+hydrate/package.json
